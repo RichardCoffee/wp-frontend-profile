@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Frontend Profile\n"
-"POT-Creation-Date: 2015-09-04 17:22+0200\n"
-"PO-Revision-Date: 2015-09-04 17:26+0200\n"
+"POT-Creation-Date: 2015-09-04 17:49+0200\n"
+"PO-Revision-Date: 2015-09-04 17:49+0200\n"
 "Last-Translator: Onni Hakala <onni@koodimonni.fi>\n"
 "Language-Team: Onni Hakala <onni@koodimonni.fi>\n"
 "Language: fi_FI\n"
@@ -113,6 +113,14 @@ msgstr "﻿Uusi salasana"
 msgid "Repeat New Password"
 msgstr "﻿Toista uusi salasana"
 
-#: wp-frontend-profile.php:35
+#: functions/wpfep-functions.php:303
+msgid "Save updated fields."
+msgstr "Tallenna päivitetyt kentät"
+
+#: functions/wpfep-functions.php:304
+msgid "Update"
+msgstr "﻿Päivitä"
+
+#: wp-frontend-profile.php:45
 msgid "For security reasons this is not allowed for admin users."
 msgstr "﻿Turvallisuussyistä tämä on kielletty pääkäyttäjiltä."

@@ -16,7 +16,7 @@ License:     GPL v2 or later
  */
 add_action( 'plugins_loaded', 'wpfep_load_textdomain' );
 function wpfep_load_textdomain() {
-  load_plugin_textdomain( 'wpptm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+  load_muplugin_textdomain( 'wpptm', dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 
 /***************************************************************
