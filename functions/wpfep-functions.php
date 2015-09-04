@@ -256,9 +256,9 @@ function wpfep_field( $field, $classes, $tab_id, $user_id ) {
 			    case 'password':
 			    
 			    	?>
-					<input type="password" name="<?php echo esc_attr( $tab_id ); ?>[<?php echo $field[ 'id' ]; ?>]" id="<?php echo esc_attr( $field[ 'id' ] ); ?>" class="regular-text" value="" placeholder="New Password" />
+					<input type="password" name="<?php echo esc_attr( $tab_id ); ?>[<?php echo $field[ 'id' ]; ?>]" id="<?php echo esc_attr( $field[ 'id' ] ); ?>" class="regular-text" value="" placeholder="<?php _e('New Password','wpptm'); ?>" />
 					
-					<input type="password" name="<?php echo esc_attr( $tab_id ); ?>[<?php echo $field[ 'id' ]; ?>_check]" id="<?php echo esc_attr( $field[ 'id' ] ); ?>_check" class="regular-text" value="" placeholder="Repeat New Password" />
+					<input type="password" name="<?php echo esc_attr( $tab_id ); ?>[<?php echo $field[ 'id' ]; ?>_check]" id="<?php echo esc_attr( $field[ 'id' ] ); ?>_check" class="regular-text" value="" placeholder="<?php _e('Repeat New Password','wpptm'); ?>" />
 
 					<?php
 			    	
