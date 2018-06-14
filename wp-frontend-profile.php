@@ -42,6 +42,7 @@ function wpfep_show_profile() {
 	
 	/* if you're an admin - too risky to allow front end editing */
 	if( current_user_can( 'manage_options' ) )
+		_e('For security reasons this is not allowed for admin users.','wpptm');`
 		return;
 
 	?>
